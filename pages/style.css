@@ -62,8 +62,15 @@
     background-color: white;
     text-align: center;
     font: bold 1.2em "Courier New", monospace;
-    position: relative;
+    position: absolute;
+    top: 0;
     margin: 75pt 650pt;
+}
+
+.extra-text {
+    display: table-cell;
+    vertical-align: middle; 
+    text-align: left;
 }
 
 .box-text {
@@ -71,10 +78,12 @@
 }
 
 .extra-box-text {
+    display: table;
+    vertical-align: middle; 
     text-align: left;
-    position: relative;
+    margin-left: 0.5em;
     width: 600pt;
-    top: -215pt;
+    min-height: 220pt;
 }
 
 .blue {
