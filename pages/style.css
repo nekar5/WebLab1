@@ -1,0 +1,96 @@
+.outer {
+    text-align: justify;
+    text-decoration: black;
+    font: italic 1.2em "Fira Sans", serif;
+}
+#box-one {
+    width: 1208px;
+    height: 300px;
+    position: relative;
+    border: 3px solid black;
+}
+#box-two {
+    width: 300px;
+    height: 150px;
+    position: relative;
+    border: 3px solid black;
+    top: -2px;
+}
+#box-three {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    border: 3px solid black;
+    top: -158px;
+    left: 304px;
+}
+#box-four {
+    width: 300px;
+    height: 754px;
+    position: absolute;
+    border: 3px solid black;
+    top: 312px;
+    left: 916px;
+}
+#box-five {
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    border: 3px solid black;
+    top: 466px;
+}
+#box-six_top {
+    width: 600px;
+    height: 150px;
+    position: absolute;
+    border: 3px solid black;
+    top: 916px; 
+    left: 312px;
+}
+#box-six_bottom {
+    width: 1208px;
+    height: 300px;
+    position: relative;
+    border: 3px solid black;
+    top: -5pt;
+}
+
+.letter-text-box {
+    width: 300px;
+    height: 90px;
+    border: 3px solid black;
+    background-color: white;
+    text-align: center;
+    font: bold 1.2em "Courier New", monospace;
+    position: relative;
+    margin: 75pt 650pt;
+}
+
+.box-text {
+    margin: 5pt 5pt;
+}
+
+.extra-box-text {
+    position: relative;
+    width: 600pt;
+    top: -215pt;
+}
+
+.blue {
+    background-color: skyblue;
+}
+.green {
+    background-color: paleturquoise;
+}
+.orange {
+    background-color: orange;
+}
+
+.img-monke {
+    height: 150pt;
+    width: 225pt;
+}
+.img-map {
+    height: 327pt;
+    width: 126pt;
+}
