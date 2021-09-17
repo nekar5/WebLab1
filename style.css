@@ -1,5 +1,5 @@
 .outer {
-    text-align: justify;
+    text-align: center;
     text-decoration: black;
     font: italic 1.2em "Fira Sans", serif;
 }
@@ -71,6 +71,7 @@
 }
 
 .extra-box-text {
+    text-align: left;
     position: relative;
     width: 600pt;
     top: -215pt;
