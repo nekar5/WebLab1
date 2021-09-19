@@ -2,69 +2,71 @@
     text-align: center;
     text-decoration: black;
     font: italic 1.2em "Fira Sans", serif;
+    width: 100%;
+    display: grid;
+    grid-template-columns: [col1] 15% [col2] 70% [col3] 15% [col-last];
+    grid-template-rows: [row1] 22% [row2] 8% [row3] 40% [row4] 8% [row5] 22% [row-end];
 }
 #box-one {
-    width: 1208px;
-    height: 300px;
-    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
     border: 3px solid black;
 }
 #box-two {
-    width: 300px;
-    height: 150px;
-    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
     border: 3px solid black;
-    top: -2px;
 }
 #box-three {
-    width: 600px;
-    height: 600px;
-    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
     border: 3px solid black;
-    top: -158px;
-    left: 304px;
 }
 #box-four {
-    width: 300px;
-    height: 754px;
-    position: absolute;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
     border: 3px solid black;
-    top: 312px;
-    left: 916px;
 }
 #box-five {
-    width: 300px;
-    height: 600px;
-    position: absolute;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
     border: 3px solid black;
-    top: 466px;
 }
 #box-six_top {
-    width: 600px;
-    height: 150px;
-    position: absolute;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
     border: 3px solid black;
-    top: 916px; 
-    left: 312px;
 }
 #box-six_bottom {
-    width: 1208px;
-    height: 300px;
-    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
     border: 3px solid black;
-    top: -5pt;
 }
 
 .letter-text-box {
-    width: 300px;
-    height: 90px;
+    width: 25%;
+    height: auto;
     border: 3px solid black;
     background-color: white;
     text-align: center;
     font: bold 1.2em "Courier New", monospace;
-    position: absolute;
-    top: 0;
-    margin: 75pt 650pt;
+    margin-left: 70%;
+    position: relative;
+    top: -60%;
 }
 
 .extra-text {
@@ -82,8 +84,9 @@
     vertical-align: middle; 
     text-align: left;
     margin-left: 0.5em;
-    width: 600pt;
-    min-height: 220pt;
+    width: 60%;
+    min-height: 95%;
+    max-height: 95%;
 }
 
 .blue {
@@ -97,8 +100,8 @@
 }
 
 .img-monke {
-    height: 150pt;
-    width: 225pt;
+    height: 10%;
+    width: fit-content;
 }
 .img-map {
     height: 327pt;
