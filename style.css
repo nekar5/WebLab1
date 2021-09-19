@@ -4,7 +4,7 @@
     font: italic 1.2em "Fira Sans", serif;
     width: 100%;
     display: grid;
-    grid-template-columns: [col1] 15% [col2] 70% [col3] 15% [col-last];
+    grid-template-columns: [col1] 20% [col2] 60% [col3] 20% [col-last];
     grid-template-rows: [row1] 22% [row2] 8% [row3] 40% [row4] 8% [row5] 22% [row-end];
 }
 #box-one {
